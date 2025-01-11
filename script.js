@@ -13,7 +13,7 @@ const places = [
     { name: "Forest Research Institute", lat:30.342870817574603, lng:78.00515056611715},
     { name: "George Everest", lat:30.45877070840063, lng:78.02306249495778},
     { name: "Kalinga War Memorial", lat:30.342870050085033, lng:78.09838959325333},
-    { name: "Maal Devta", lat:30.337284482483117, lng:78.13856936441778},
+    { name: "MalDevta", lat:30.337284482483117, lng:78.13856936441778},
     { name: "Mussoorie", lat:30.45911541270435, lng:78.07725906228546},
     { name: "Robbers Cave", lat:30.37549470300491, lng:78.05983276006819},
     { name: "Sahastradhara", lat:30.384498142198115, lng:78.1306698914287},
@@ -42,7 +42,7 @@ const Info = [
         detail: "The Kalinga War Memorial, built by the British, is a unique war memorial honoring the Gurkhas' bravery during battles, set amidst scenic surroundings."
     },
     {
-        name: "Maal Devta",
+        name: "MalDevta",
         detail: "Maal Devta is a serene spot in Dehradun, known for its temple and natural surroundings, making it a popular destination for picnics and outings."
     },
     {
