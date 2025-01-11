@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Dehradun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="content">
+            <h2>Explore these places in Dehradun</h2>
+        </div>
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="images/Buddha Temple.webp" alt="Buddha Temple"></div>
+            <div class="item" style="--position: 2"><img src="images/Doon Valley.webp" alt="Doon Valley"></div>
+            <div class="item" style="--position: 3"><img src="images/FRI.webp" alt="FRI"></div>
+            <div class="item" style="--position: 4"><img src="images/George-everest-peak-mussoorie.webp" alt="George Everest"></div>
+            <div class="item" style="--position: 5"><img src="images/Kalinga-war-memorial.webp" alt="Kalinga War Memorial"></div>
+            <div class="item" style="--position: 6"><img src="images/Maal Devta.webp" alt="Maal Devta"></div>
+            <div class="item" style="--position: 7"><img src="images/Mussoorie.webp" alt="Mussoorie"></div>
+            <div class="item" style="--position: 8"><img src="images/Robbers Cave.webp" alt="Robbers Cave"></div>
+            <div class="item" style="--position: 9"><img src="images/Sahastradhara.webp" alt="Sahastradhara"></div>
+            <div class="item" style="--position: 10"><img src="images/Tapkeshwar Temple.webp" alt="Tapkeshwar Temple"></div>
+        </div>
+        
+    </div>
+    <div id="imageInfo" class="info-box hidden">
+        <p id="imageInfoText"></p>
+        <button id="getDirectionsBtn">Get Directions</button>
+    </div>
+    <div id="map" style="height: 500px; width: 100%;"></div>
+    <button id="scrollToTop">↑</button>
+    <script src="script.js" defer></script>
+    <script src="https://maps.gomaps.pro/maps/api/js?key=AlzaSynVnEe94tcrbvHe2VtfspRiymCvMnMJz7f&callback=initMap" async defer></script>
+
+</body>
+</html>
